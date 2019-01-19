@@ -1,0 +1,3 @@
+SELECT Name 
+FROM CITY c
+WHERE (c.Population>120000) AND (c.COUNTRYCODE = 'USA');
